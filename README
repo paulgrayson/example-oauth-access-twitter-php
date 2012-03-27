@@ -1,6 +1,6 @@
 This repository illustrates how to obtain OAuth Access Token from Twitter using php and the oauth-php library. It is only intended as an example.
 
-This uses oauth-php library ( http://code.google.com/p/oauth-php/ ) and assumes a mysql db.
+Uses oauth-php library ( http://code.google.com/p/oauth-php/ ) and assumes a mysql db.
 
 SETUP:
 1. edit config_oauth.php to match your app's db
@@ -14,4 +14,5 @@ RUNNING:
 2. once the user has authorized (or declined) your app access to twitter, twitter will redirect back to callback.php. callback.php stores the oauth access token in the db
 (against the user_id specied as a param to authorize.php) and redirects the browser to either SUCCESS_PATH or DENIED_PATH (see config_oauth.php)
 3. SUCCESS_PATH is set to /example.php by default. example.php shows an example of how to access the twitter API using the OAUTH access key.
+
 
