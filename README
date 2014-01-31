@@ -1,4 +1,4 @@
-This repository illustrates how to obtain OAuth Access Token from Twitter using php and the oauth-php library. It is only intended as an example.
+This repository illustrates how to obtain OAuth (v1) Access Token from Twitter using php and the oauth-php library. It is only intended as an example.
 
 Uses oauth-php library ( http://code.google.com/p/oauth-php/ ) and assumes a mysql db.
 
